@@ -45,7 +45,7 @@ const Navbar = () => {
           </a>
           {/* Sign Up Button */}
           <a
-            href="/signup"
+            href="/Login"
             className="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition duration-300 shadow-md"
           >
             Sign Up

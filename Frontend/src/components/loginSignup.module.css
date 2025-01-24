@@ -1,0 +1,88 @@
+/* loginSignup.module.css */
+
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #d17513, #e84707);
+  font-family: "Arial", sans-serif;
+}
+
+/* Card styling */
+.card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: all 0.4s ease-in-out;
+  text-align: center;
+}
+
+.card.login {
+  transform: scale(1.05);
+}
+
+.card.signup {
+  transform: scale(1.1);
+}
+
+/* Input field styling */
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.inputGroup input:focus {
+  border-color: #74ebd5;
+  box-shadow: 0 0 5px rgba(116, 235, 213, 0.5);
+}
+
+/* Button styling */
+.btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.toggleBtn {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.toggleBtn:hover {
+  color: #0056b3;
+}
+
+/* Message styling */
+.message {
+  margin-top: 15px;
+  color: green;
+  font-size: 14px;
+}
